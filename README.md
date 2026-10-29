@@ -2,6 +2,10 @@
 
 **A memory-care agent that knows what someone loved, and plays it back to them.**
 
+- **Live app:** https://familiar-qloo.vercel.app
+- **Demo video:** https://youtu.be/Q_kZys2Y-88
+- **Example kits (open instantly):** [Rosa](https://familiar-qloo.vercel.app/examples/rosa) · [Walter](https://familiar-qloo.vercel.app/examples/walter) · [Mei](https://familiar-qloo.vercel.app/examples/mei)
+
 Familiar builds a personalised *Memory Kit* for a person living with dementia: the music, films, food and conversation of their formative years, from their own hometown and culture. Caregivers use it to run calm reminiscence sessions. They tap how the person responded, and the agent re-researches the kit around what works.
 
 It is grounded in [Qloo](https://www.qloo.com)'s cultural taste graph (250M+ entities). Every recommendation is a real entity Qloo returned, never a guess.

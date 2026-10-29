@@ -499,9 +499,10 @@ Build the Memory Kit:
 
   if (profile.avoid?.trim()) await screenAvoid(generate, profile.avoid, items, (id) => seen.delete(id));
 
-  // Carry over reactions for items that survived.
+  // Carry over reactions for items that survived. Upset marks are kept even though the item is
+  // gone, so it stays excluded in every later version.
   const reactions: Kit["reactions"] = {};
-  for (const [id, r] of Object.entries(previous?.reactions ?? {})) if (seen.has(id)) reactions[id] = r;
+  for (const [id, r] of Object.entries(previous?.reactions ?? {})) if (seen.has(id) || r === "upset") reactions[id] = r;
 
   return {
     id: previous?.id ?? crypto.randomUUID().slice(0, 8),

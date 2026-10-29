@@ -1,6 +1,7 @@
 # Familiar: a memory-care agent that knows what someone loved
 
 **Live demo:** https://familiar-qloo.vercel.app
+**Demo video:** https://youtu.be/Q_kZys2Y-88
 **Example kits (open instantly, no waiting):** https://familiar-qloo.vercel.app/examples/rosa · /examples/walter · /examples/mei
 **Code:** https://github.com/anagha2312/Familiar- (MIT)
 
