@@ -1,0 +1,15 @@
+# secrets
+.env
+.env*.local
+
+# dependencies and build output
+node_modules/
+.next/
+out/
+.vercel/
+
+*.tsbuildinfo
+.DS_Store
+
+# local showcase cache (contains Qloo data; never commit)
+.showcase/
